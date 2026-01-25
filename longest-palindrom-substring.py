@@ -47,7 +47,6 @@ def longestPalindrome(s: str) -> str:
             if(newLength > maxLength):
                 maxLength = newLength
                 start = left
-            #increment/dicrement
             left-= 1
             right+= 1
         
@@ -60,7 +59,6 @@ def longestPalindrome(s: str) -> str:
             if(newLength > maxLength):
                 maxLength = newLength
                 start = left
-            #increment/dicrement
             left-= 1
             right+= 1
 
