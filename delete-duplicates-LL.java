@@ -1,4 +1,4 @@
- public ListNode deleteDuplicates(ListNode head) {
+public ListNode deleteDuplicates(ListNode head) {
         ListNode localHead = head;
         ListNode currentNode = head;
 
